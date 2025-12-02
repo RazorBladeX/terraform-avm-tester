@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
       
       - name: Setup Terraform + Azure CLI + GitHub CLI
-        uses: Action-Foundry/tf-avm-action@v0.0.2
+        uses: Action-Foundry/tf-avm-action@main
         # Uses latest versions by default
         
       - name: Verify Terraform installation
